@@ -1,0 +1,110 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+html {
+    background-color: #038387;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4%;
+    width: 100%;
+    color: white;
+    background-color: #c1c1c1;
+    border-top: 1.5px solid white;
+}
+
+#yay > img {
+    max-width: 30%;
+    vertical-align: middle;
+}
+
+#yay > img:hover {
+    cursor: pointer;
+}
+
+#yay {
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    position: fixed;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    background-color: #c1c1c1;
+    border: none;
+}
+
+#bar {
+   max-width: 150px;
+   max-height: 500px;
+   background-color: #c1c1c1;
+   left: 0;
+   position: fixed;
+   bottom: 0;
+   margin-bottom: 8.5%;
+   border-bottom: 2px solid black;
+   border-right: 2px solid black;
+   border-top: 2px solid white;
+   border-left: 2px solid white;
+}
+
+#bar > img {
+    max-width: 25%;
+    padding-left: 5%;
+    padding-top: 2%;
+    vertical-align: middle;
+}
+
+a {
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#settings {
+    max-width: 30%;
+    padding-left: 4%;
+    padding-top: 2%;
+    vertical-align: middle;
+}
+
+#bar {
+    display: none;
+}
+
+#shut {
+    max-width: 25%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    vertical-align: middle;
+}
+
+#pc {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#text {
+    vertical-align: none;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 100px;
+    padding-top: 3%;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    color: white;
+}
